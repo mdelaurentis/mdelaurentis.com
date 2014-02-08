@@ -1,4 +1,0 @@
-cd _site
-tar cvfz public.tar.gz *
-scp public.tar.gz mdelaurentis.com:
-ssh mdelaurentis.com "cd /var/www; tar zxvf ~/public.tar.gz"
